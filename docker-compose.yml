@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  #Setup client container
+  client:
+    container_name: pokedex-client
+    restart: always
+    build: ./client
+    ports: 
+      - "3000:3000"
+    depends_on: 
+      - server
+  #Setup server node container
+  server:
+    container_name: pokedex-server
+    restart: always
+    build: ./server
+    ports: 
+      - "8080:8080"

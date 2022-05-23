@@ -1,0 +1,4 @@
+//enable ES6 module imports
+{
+    "presets": ["@babel/preset-env"]
+}

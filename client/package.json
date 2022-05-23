@@ -1,0 +1,32 @@
+{
+  "name": "pokedex",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "nodemon ../server/server.js",
+    "client:dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prettify": "prettier --write \"**/*.+(js|jsx)\"",
+    "test:client": "cypress open",
+    "test": "concurrently \"npm run dev\" \"npm run test:client\""
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "framer-motion": "^6.3.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.4",
+    "@vitejs/plugin-react": "^1.3.0",
+    "concurrently": "^7.2.0",
+    "prettier": "^2.6.2",
+    "vite": "^2.9.9",
+    "cypress": "^9.6.1"
+  }
+}
