@@ -126,7 +126,7 @@ pokedex
 </div>
 
 ```
-git clone url
+git clone https://github.com/tl-fredwintan/pokedex-shakespeare.git
 ```
 
 <div>
