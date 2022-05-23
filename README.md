@@ -138,7 +138,7 @@ npm install
 ```
 
 <div>
-   <p>Once dependancies have been installed. To boot up both client and server application, go to '/client' folder and run</p>
+   <p>Once dependancies have been installed. To boot up both client and server application, go to '/client' folder and run. NOTE: nodemon needs to be installed globally on the machine. 'npm install -g nodemon'</p>
 </div>
 
 ```
