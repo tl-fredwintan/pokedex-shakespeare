@@ -16,6 +16,8 @@
    <img src="https://styled-components.com/logo.png" title="styled-components" alt="styled-components" width="40" height="40"/>&nbsp;
    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
    <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+   <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/framer_logo_icon_169149.png" title="Framer" alt="Framer" width="40" height="40"/>&nbsp;
+   
 </div>
 
 <div>
